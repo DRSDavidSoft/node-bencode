@@ -1,0 +1,11 @@
+{
+  "name": "node-bencode",
+  "version": "0.0.0",
+  "description": "encode and decode bencodes",
+  "author": "liam griffiths <liamgriffiths@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "q-io": "~1.10.6",
+    "q": "~0.9.7"
+  }
+}
