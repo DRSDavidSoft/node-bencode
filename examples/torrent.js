@@ -1,5 +1,4 @@
 var Bencode = require('../lib/bencode');
-var q = require('q');
 var qfs = require("q-io/fs");
 var path = require('path');
 
@@ -14,13 +13,9 @@ qfs.read(TORRENTFILE, 'b')
     return buffer;
   })
 
-  // build up an array of tokens
-  .then(Bencode.tokenize)
-  // .then(log)
-
-  // use tokens to build a JSON object
-  .then(Bencode.parse)
-  // .then(log)
+  // decode the bencoded buffer
+  .then(Bencode.decode)
+  .then(log)
 
   // encode JSON back into bencode
   .then(Bencode.encode)
