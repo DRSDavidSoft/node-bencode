@@ -2,9 +2,19 @@
   "name": "node-bencode",
   "version": "0.0.0",
   "description": "encode and decode bencodes",
-  "author": "liam griffiths <liamgriffiths@gmail.com>",
+  "keywords": ["bencode"],
+  "author": {
+    "name": "liam griffiths",
+    "email": "liamgriffiths@gmail.com"
+  },
+  "homepage": "https://github.com/liamgriffiths/node-bencode",
   "license": "MIT",
   "devDependencies": {
     "q-io": "~1.10.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/liamgriffiths/node-bencode.git"
+  },
+  "main" : "index.js"
 }
