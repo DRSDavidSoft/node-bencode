@@ -5,6 +5,12 @@ Small node.js library for encoding and decoding with [Bencode][].
 
 [Bencode]: https://wiki.theory.org/BitTorrentSpecification#Bencoding
 
+# install
+
+```
+npm install node-bencode
+```
+
 # examples
 
 ```js
